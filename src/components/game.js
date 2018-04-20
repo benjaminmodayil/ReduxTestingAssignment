@@ -1,9 +1,9 @@
-import React from 'react';
+import React from 'react'
 
-import Header from './header';
-import GuessSection from './guess-section';
-import StatusSection from './status-section';
-import InfoSection from './info-section';
+import Header from './header'
+import { GuessSection } from './guess-section'
+import StatusSection from './status-section'
+import InfoSection from './info-section'
 
 export default function Game(props) {
   return (
@@ -15,5 +15,5 @@ export default function Game(props) {
         <InfoSection />
       </main>
     </div>
-  );
+  )
 }
